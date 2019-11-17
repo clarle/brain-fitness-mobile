@@ -5,7 +5,6 @@ import LoadingScreen from './src/LoadingScreen';
 import AuthStack from './src/Auth/AuthStack';
 import AppStack from './src/App/AppStack';
 
-
 export default createAppContainer(
   createSwitchNavigator(
     {
@@ -14,7 +13,7 @@ export default createAppContainer(
       App: AppStack,
     },
     {
-      initialRouteName: 'Loading',
+      initialRouteName: 'App',
     },
   ),
 );
